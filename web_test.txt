@@ -1,0 +1,37 @@
+Kabahita Victoria 222025 2022/DSCE/015/SS
+
+1.	Define the following terms according to HTML and CSS and give examples
+(a). Elements
+    Elements are special designators that are described by an opening tag, the content and the closing tag.
+
+    For example; <h1> My First Web Page </h1>
+
+(b). Attributes
+    Attributes are additional specifications for the element, written within the opening tag.
+
+    For example; <a href = "link"> My Link Text </a> ; href is the attribute
+
+(c). Selectors
+    Selectors are what appear outside the curly brackets of the CSS declaration. They are the HTML element tags that you 
+    want to style.
+
+    For example; 
+        h1 {
+            color: blue;
+        }
+        h1 is the selector
+
+(d). Semantic elements
+    Semantic elements are HTML elements that have a meaning.
+
+    For example; <table>...</table>
+
+(e). Web accessibility
+    Web accessibility is the process of making our web pages and their content available for all people by taking 
+    their disabilities into account.
+
+    For example; use of Heading Levels; from <h1> to <h6>
+
+(f). Web server
+    This is the computer that stores all the files for the website. It uses Hypertext Transfer Protocol (HTTP) to serve
+    these files to the web browser.

@@ -1,0 +1,74 @@
+<!-- Kabahita Victoria 222025 2022/DSCE/015/SS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulago</title>
+    <link rel="stylesheet" href="./css/number_three.css">
+</head>
+<body>
+    <main>
+        <h1>Patient Data</h1>
+        <form>
+            <label for="fname">Your First Name:</label>
+            <input type="text" name="fname" id="fname" placeholder="e.g Jane" required> <br>
+
+            <label for="lname">Your Last Name:</label>
+            <input type="text" name="lname" id="lname" placeholder="e.g Doe" required> <br>
+
+            <label for="contact">Your Phone Number:</label>
+            <input type="tel" name="contact" id="contact" placeholder="e.g 0777777777" maxlength="10" required> <br>
+
+            <fieldset>
+                <legend>Your Area of Residence</legend>
+                <label for="parish">Parish:</label>
+                <input type="text" name="parish" id="parish" placeholder="e.g Nakawa" required> <br> <br>
+
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city" placeholder="e.g Kampala" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" id="male" value="Male" required>
+                <label for="male">Male</label>
+            
+            <input type="radio" name="gender" id="female" value="Female" required>
+            <label for="female">Female</label> <br>
+            </fieldset>
+            
+
+            <fieldset>
+                <legend>Age</legend>
+                <input type="radio" name="age" id="0_to_10" required>
+                <label for="0_to_10">0 to 9</label> <br>
+
+                <input type="radio" name="age" id="10_to_20" required>
+                <label for="10_to_19">10 to 19</label> <br>
+
+                <input type="radio" name="age" id="20_to_30" required>
+                <label for="20_to_29">20 to 29</label> <br>
+
+                <input type="radio" name="age" id="30_to_40" required>
+                <label for="30_to_39">30 to 39</label> <br>
+
+                <input type="radio" name="age" id="40_to_50" required>
+                <label for="40_to_59">40 to 49</label> <br>
+
+                <input type="radio" name="age" id="50_and_above" required>
+                <label for="50_and_above">50 and above</label> <br>
+            </fieldset> <br> <br>
+
+            <label for="comments">Comments about the patient:</label> <br>
+            <textarea name="comments" id="comments" cols="40" rows="7" required>Write your comments here...</textarea> <br>
+
+            <a href="#terms">Our Terms and Conditions</a> <br>
+
+            <input type="submit" value="Submit">
+            
+        </form>
+    </main>
+</body>
+</html>
